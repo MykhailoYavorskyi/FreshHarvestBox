@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -189,13 +189,24 @@ address {
   padding-top: 56px;
 }
 
+.hero-backgroung {
+  height: 484px;
+
+  background-image: url(../image/hero/girl-bg/girl.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 500px;
+  margin-bottom: 71px;
+}
+
 .main-title {
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 400px;
+  margin-bottom: 320px;
 }
 
 .hero-shopnow-link {
